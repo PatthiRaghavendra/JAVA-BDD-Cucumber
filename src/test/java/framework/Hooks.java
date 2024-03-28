@@ -62,8 +62,8 @@ public class Hooks {
 	}
 
 	private void chromedriver() {
-		System.setProperty("webdriver.chrome.driver","/Users/raghavendra/chromedriver_mac64/webDrivers/chrome-mac-arm64/chromedriver");
-		WebDriverManager.chromedriver().setup();
+		//System.setProperty("webdriver.chrome.driver","/Users/raghavendra/chromedriver_mac64/webDrivers/chrome-mac-arm64/chromedriver");
+		//WebDriverManager.chromedriver().setup();
 		driver.set(new ChromeDriver());
 		wait.set(new WebDriverWait(getThreadSafeDriver(), Duration.ofSeconds(10,0)));
 	}
